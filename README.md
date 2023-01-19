@@ -24,6 +24,7 @@ setPricePerDay.
 • Implement a class called CarFleet. This class will internally have three objects of type Queue.
 One queue will have only gasoline cars, one queue will have only hybrid cars, and one queue
 will have only electric cars.
+
       ◦ Class CarFleet has a method called addCar. addCar takes as input an object of type Car,
         and places it in the appropriate queue inside carFleet based on the type of car that is being
         added (gasoline, hybrid, or electric). If the powerSource value does not correspond to any
