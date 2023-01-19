@@ -51,6 +51,7 @@ public class CarFleetTests {
 		req.enqueue(1);
 		req.enqueue(2);
 		req.enqueue(3);
+		
 		fleet.processRequests(req);
 	}
 	
@@ -72,6 +73,8 @@ public class CarFleetTests {
 		req.enqueue(3);
 		req.enqueue(2);
 		req.enqueue(2);
+				
+		
 		fleet.processRequests(req);
 	}
 	
